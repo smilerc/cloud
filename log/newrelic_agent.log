@@ -1,0 +1,1190 @@
+# Logfile created on 2022-10-03 12:44:32 +0300 by logger.rb/v1.5.1
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:44:32 +0300 workstation (1167544)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:44:32 +0300 workstation (1167544)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Environment: development
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : No known dispatcher detected.
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Application: development
+[2022-10-03 12:44:32 +0300 workstation (1167544)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing Logger instrumentation
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:44:32 +0300 workstation (1167544)] INFO : Finished instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:45:23 +0300 workstation (1168113)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:45:23 +0300 workstation (1168113)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Environment: development
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : No known dispatcher detected.
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Application: development
+[2022-10-03 12:45:23 +0300 workstation (1168113)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing Logger instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:45:23 +0300 workstation (1168113)] INFO : Finished instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:46:01 +0300 workstation (1168491)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:46:01 +0300 workstation (1168491)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Environment: development
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : No known dispatcher detected.
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Application: development
+[2022-10-03 12:46:01 +0300 workstation (1168491)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing Logger instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:46:01 +0300 workstation (1168491)] INFO : Finished instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:46:18 +0300 workstation (1168676)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:46:18 +0300 workstation (1168676)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Environment: development
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : No known dispatcher detected.
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Application: development
+[2022-10-03 12:46:18 +0300 workstation (1168676)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing Logger instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:46:18 +0300 workstation (1168676)] INFO : Finished instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:46:58 +0300 workstation (1169066)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:46:58 +0300 workstation (1169066)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Environment: development
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : No known dispatcher detected.
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Application: development
+[2022-10-03 12:46:58 +0300 workstation (1169066)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing Logger instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:46:58 +0300 workstation (1169066)] INFO : Finished instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:47:12 +0300 workstation (1169206)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:47:12 +0300 workstation (1169206)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Environment: development
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : No known dispatcher detected.
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Application: development
+[2022-10-03 12:47:12 +0300 workstation (1169206)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing Logger instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:47:12 +0300 workstation (1169206)] INFO : Finished instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:47:32 +0300 workstation (1169408)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:47:32 +0300 workstation (1169408)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Environment: development
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : No known dispatcher detected.
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Application: development
+[2022-10-03 12:47:32 +0300 workstation (1169408)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing Logger instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:47:32 +0300 workstation (1169408)] INFO : Finished instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:47:35 +0300 workstation (1169450)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:47:35 +0300 workstation (1169450)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Environment: development
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : No known dispatcher detected.
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Application: development
+[2022-10-03 12:47:35 +0300 workstation (1169450)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing Logger instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:47:35 +0300 workstation (1169450)] INFO : Finished instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:47:55 +0300 workstation (1169676)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:47:55 +0300 workstation (1169676)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Environment: development
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : No known dispatcher detected.
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Application: development
+[2022-10-03 12:47:55 +0300 workstation (1169676)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing Logger instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:47:55 +0300 workstation (1169676)] INFO : Finished instrumentation
+[2022-10-03 12:47:56 +0300 workstation (1169676)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 12:47:56 +0300 workstation (1169676)] INFO : Installing http.rb Wrappers
+[2022-10-03 12:47:56 +0300 workstation (1169676)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:48:05 +0300 workstation (1169797)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:48:05 +0300 workstation (1169797)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Environment: development
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : No known dispatcher detected.
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Application: development
+[2022-10-03 12:48:05 +0300 workstation (1169797)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing Logger instrumentation
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:48:05 +0300 workstation (1169797)] INFO : Finished instrumentation
+[2022-10-03 12:48:06 +0300 workstation (1169797)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 12:48:06 +0300 workstation (1169797)] INFO : Installing http.rb Wrappers
+[2022-10-03 12:48:06 +0300 workstation (1169797)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 12:48:14 +0300 workstation (1169797)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:48:14 +0300 workstation (1169797)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:48:14 +0300 workstation (1169797)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 12:48:31 +0300 workstation (1169797)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:48:31 +0300 workstation (1169797)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:48:31 +0300 workstation (1169797)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 12:49:03 +0300 workstation (1169797)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:49:03 +0300 workstation (1169797)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:49:03 +0300 workstation (1169797)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 12:50:06 +0300 workstation (1169797)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:50:06 +0300 workstation (1169797)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:50:06 +0300 workstation (1169797)] INFO : Will re-attempt in 120 seconds
+[2022-10-03 12:52:09 +0300 workstation (1169797)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:52:09 +0300 workstation (1169797)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:52:09 +0300 workstation (1169797)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 12:57:11 +0300 workstation (1169797)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:57:11 +0300 workstation (1169797)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:57:11 +0300 workstation (1169797)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 12:57:24 +0300 workstation (1169797)] INFO : Starting Agent shutdown
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:57:29 +0300 workstation (1175383)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:57:29 +0300 workstation (1175383)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Environment: development
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : No known dispatcher detected.
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Application: development
+[2022-10-03 12:57:29 +0300 workstation (1175383)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing Logger instrumentation
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:57:29 +0300 workstation (1175383)] INFO : Finished instrumentation
+[2022-10-03 12:57:30 +0300 workstation (1175383)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 12:57:30 +0300 workstation (1175383)] INFO : Installing http.rb Wrappers
+[2022-10-03 12:57:30 +0300 workstation (1175383)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 12:57:34 +0300 workstation (1175383)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:57:34 +0300 workstation (1175383)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:57:34 +0300 workstation (1175383)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 12:57:51 +0300 workstation (1175383)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:57:51 +0300 workstation (1175383)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:57:51 +0300 workstation (1175383)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 12:58:15 +0300 workstation (1175383)] INFO : Starting Agent shutdown
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 12:58:20 +0300 workstation (1176006)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 12:58:20 +0300 workstation (1176006)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Environment: development
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : No known dispatcher detected.
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Application: development
+[2022-10-03 12:58:20 +0300 workstation (1176006)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing Logger instrumentation
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing Sinatra instrumentation
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing Sequel instrumentation
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing Thread Instrumentation
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing Tilt instrumentation
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 12:58:20 +0300 workstation (1176006)] INFO : Finished instrumentation
+[2022-10-03 12:58:21 +0300 workstation (1176006)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 12:58:21 +0300 workstation (1176006)] INFO : Installing http.rb Wrappers
+[2022-10-03 12:58:21 +0300 workstation (1176006)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 12:58:24 +0300 workstation (1176006)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:58:24 +0300 workstation (1176006)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:58:24 +0300 workstation (1176006)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 12:58:42 +0300 workstation (1176006)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:58:42 +0300 workstation (1176006)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:58:42 +0300 workstation (1176006)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 12:59:14 +0300 workstation (1176006)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 12:59:14 +0300 workstation (1176006)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 12:59:14 +0300 workstation (1176006)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 13:00:17 +0300 workstation (1176006)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:00:17 +0300 workstation (1176006)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:00:17 +0300 workstation (1176006)] INFO : Will re-attempt in 120 seconds
+[2022-10-03 13:02:17 +0300 workstation (1176006)] INFO : Starting Agent shutdown
+[2022-10-03 13:02:20 +0300 workstation (1176006)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:02:20 +0300 workstation (1176006)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:02:20 +0300 workstation (1176006)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:02:22 +0300 workstation (1178509)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:02:22 +0300 workstation (1178509)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Environment: development
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : No known dispatcher detected.
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Application: development
+[2022-10-03 13:02:22 +0300 workstation (1178509)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing Logger instrumentation
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:02:22 +0300 workstation (1178509)] INFO : Finished instrumentation
+[2022-10-03 13:02:23 +0300 workstation (1178509)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:02:23 +0300 workstation (1178509)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:02:23 +0300 workstation (1178509)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:02:41 +0300 workstation (1178711)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:02:41 +0300 workstation (1178711)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Environment: development
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : No known dispatcher detected.
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Application: development
+[2022-10-03 13:02:41 +0300 workstation (1178711)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing Logger instrumentation
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:02:41 +0300 workstation (1178711)] INFO : Finished instrumentation
+[2022-10-03 13:02:42 +0300 workstation (1178711)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:02:42 +0300 workstation (1178711)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:02:42 +0300 workstation (1178711)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:04:15 +0300 workstation (1179640)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:04:15 +0300 workstation (1179640)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Environment: development
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : No known dispatcher detected.
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Application: development
+[2022-10-03 13:04:15 +0300 workstation (1179640)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing Logger instrumentation
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:04:15 +0300 workstation (1179640)] INFO : Finished instrumentation
+[2022-10-03 13:04:16 +0300 workstation (1179640)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:04:16 +0300 workstation (1179640)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:04:16 +0300 workstation (1179640)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:07:07 +0300 workstation (1181829)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:07:07 +0300 workstation (1181829)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:07:07 +0300 workstation (1181829)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:07:07 +0300 workstation (1181829)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:07:07 +0300 workstation (1181829)] INFO : Environment: development
+[2022-10-03 13:07:07 +0300 workstation (1181829)] INFO : No known dispatcher detected.
+[2022-10-03 13:07:07 +0300 workstation (1181829)] INFO : Application: development
+[2022-10-03 13:07:07 +0300 workstation (1181829)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing Logger instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Finished instrumentation
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:07:08 +0300 workstation (1181829)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:09:49 +0300 workstation (1183390)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:09:49 +0300 workstation (1183390)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Environment: development
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : No known dispatcher detected.
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Application: development
+[2022-10-03 13:09:49 +0300 workstation (1183390)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing Logger instrumentation
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:09:49 +0300 workstation (1183390)] INFO : Finished instrumentation
+[2022-10-03 13:09:50 +0300 workstation (1183390)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:09:50 +0300 workstation (1183390)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:09:50 +0300 workstation (1183390)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:11:31 +0300 workstation (1184657)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:11:31 +0300 workstation (1184657)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:11:31 +0300 workstation (1184657)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:11:31 +0300 workstation (1184657)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:11:31 +0300 workstation (1184657)] INFO : Environment: development
+[2022-10-03 13:11:31 +0300 workstation (1184657)] INFO : No known dispatcher detected.
+[2022-10-03 13:11:31 +0300 workstation (1184657)] INFO : Application: development
+[2022-10-03 13:11:31 +0300 workstation (1184657)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing Logger instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Finished instrumentation
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:11:32 +0300 workstation (1184657)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:26:23 +0300 workstation (1184657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:26:23 +0300 workstation (1184657)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:26:23 +0300 workstation (1184657)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 13:26:41 +0300 workstation (1184657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:26:41 +0300 workstation (1184657)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:26:41 +0300 workstation (1184657)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 13:27:14 +0300 workstation (1184657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:27:14 +0300 workstation (1184657)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:27:14 +0300 workstation (1184657)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 13:27:29 +0300 workstation (1184657)] INFO : Starting Agent shutdown
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:27:34 +0300 workstation (1195967)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:27:34 +0300 workstation (1195967)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Environment: development
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : No known dispatcher detected.
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Application: development
+[2022-10-03 13:27:34 +0300 workstation (1195967)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing Logger instrumentation
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:27:34 +0300 workstation (1195967)] INFO : Finished instrumentation
+[2022-10-03 13:27:35 +0300 workstation (1195967)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:27:35 +0300 workstation (1195967)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:27:35 +0300 workstation (1195967)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:27:46 +0300 workstation (1196101)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:27:46 +0300 workstation (1196101)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Environment: development
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : No known dispatcher detected.
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Application: development
+[2022-10-03 13:27:46 +0300 workstation (1196101)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing Logger instrumentation
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:27:46 +0300 workstation (1196101)] INFO : Finished instrumentation
+[2022-10-03 13:27:47 +0300 workstation (1196101)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:27:47 +0300 workstation (1196101)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:27:47 +0300 workstation (1196101)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:28:10 +0300 workstation (1196335)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:28:10 +0300 workstation (1196335)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Environment: development
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : No known dispatcher detected.
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Application: development
+[2022-10-03 13:28:10 +0300 workstation (1196335)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing Logger instrumentation
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:28:10 +0300 workstation (1196335)] INFO : Finished instrumentation
+[2022-10-03 13:28:11 +0300 workstation (1196335)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:28:11 +0300 workstation (1196335)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:28:11 +0300 workstation (1196335)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:28:16 +0300 workstation (1196335)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:28:16 +0300 workstation (1196335)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:28:16 +0300 workstation (1196335)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 13:28:34 +0300 workstation (1196335)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:28:34 +0300 workstation (1196335)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:28:34 +0300 workstation (1196335)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 13:28:41 +0300 workstation (1196335)] INFO : Starting Agent shutdown
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:28:46 +0300 workstation (1196765)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:28:46 +0300 workstation (1196765)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Environment: development
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : No known dispatcher detected.
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Application: development
+[2022-10-03 13:28:46 +0300 workstation (1196765)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing Logger instrumentation
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:28:46 +0300 workstation (1196765)] INFO : Finished instrumentation
+[2022-10-03 13:28:47 +0300 workstation (1196765)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:28:47 +0300 workstation (1196765)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:28:47 +0300 workstation (1196765)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:28:50 +0300 workstation (1196765)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:28:50 +0300 workstation (1196765)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:28:50 +0300 workstation (1196765)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 13:29:08 +0300 workstation (1196765)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:29:08 +0300 workstation (1196765)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:29:08 +0300 workstation (1196765)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 13:29:41 +0300 workstation (1196765)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:29:41 +0300 workstation (1196765)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:29:41 +0300 workstation (1196765)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 13:30:24 +0300 workstation (1196765)] INFO : Starting Agent shutdown
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:30:28 +0300 workstation (1197932)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:30:28 +0300 workstation (1197932)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Environment: development
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : No known dispatcher detected.
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Application: development
+[2022-10-03 13:30:28 +0300 workstation (1197932)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing Logger instrumentation
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:30:28 +0300 workstation (1197932)] INFO : Finished instrumentation
+[2022-10-03 13:30:29 +0300 workstation (1197932)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:30:29 +0300 workstation (1197932)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:30:29 +0300 workstation (1197932)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:31:15 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:31:15 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:31:15 +0300 workstation (1197932)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 13:31:33 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:31:33 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:31:33 +0300 workstation (1197932)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 13:32:05 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:32:05 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:32:05 +0300 workstation (1197932)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 13:33:08 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:33:08 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:33:08 +0300 workstation (1197932)] INFO : Will re-attempt in 120 seconds
+[2022-10-03 13:35:10 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:35:10 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:35:10 +0300 workstation (1197932)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 13:40:13 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:40:13 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:40:13 +0300 workstation (1197932)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 13:45:16 +0300 workstation (1197932)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:45:16 +0300 workstation (1197932)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:45:16 +0300 workstation (1197932)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 13:45:26 +0300 workstation (1197932)] INFO : Starting Agent shutdown
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:45:31 +0300 workstation (1206748)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:45:31 +0300 workstation (1206748)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Environment: development
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : No known dispatcher detected.
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Application: development
+[2022-10-03 13:45:31 +0300 workstation (1206748)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing Logger instrumentation
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:45:31 +0300 workstation (1206748)] INFO : Finished instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:45:34 +0300 workstation (1206801)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:45:34 +0300 workstation (1206801)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Environment: development
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : No known dispatcher detected.
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Application: development
+[2022-10-03 13:45:34 +0300 workstation (1206801)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing Logger instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:45:34 +0300 workstation (1206801)] INFO : Finished instrumentation
+[2022-10-03 13:45:35 +0300 workstation (1206801)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:45:35 +0300 workstation (1206801)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:45:35 +0300 workstation (1206801)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:45:42 +0300 workstation (1206801)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:45:42 +0300 workstation (1206801)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:45:42 +0300 workstation (1206801)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 13:46:00 +0300 workstation (1206801)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:46:00 +0300 workstation (1206801)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:46:00 +0300 workstation (1206801)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 13:46:32 +0300 workstation (1206801)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:46:32 +0300 workstation (1206801)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:46:32 +0300 workstation (1206801)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 13:47:35 +0300 workstation (1206801)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:47:35 +0300 workstation (1206801)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:47:35 +0300 workstation (1206801)] INFO : Will re-attempt in 120 seconds
+[2022-10-03 13:49:37 +0300 workstation (1206801)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 13:49:37 +0300 workstation (1206801)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 13:49:37 +0300 workstation (1206801)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 13:53:30 +0300 workstation (1206801)] INFO : Starting Agent shutdown
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:53:35 +0300 workstation (1212681)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:53:35 +0300 workstation (1212681)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Environment: development
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : No known dispatcher detected.
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Application: development
+[2022-10-03 13:53:35 +0300 workstation (1212681)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing Logger instrumentation
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:53:35 +0300 workstation (1212681)] INFO : Finished instrumentation
+[2022-10-03 13:53:36 +0300 workstation (1212681)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:53:36 +0300 workstation (1212681)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:53:36 +0300 workstation (1212681)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 13:53:50 +0300 workstation (1212866)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 13:53:50 +0300 workstation (1212866)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Environment: development
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : No known dispatcher detected.
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Application: development
+[2022-10-03 13:53:50 +0300 workstation (1212866)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing Logger instrumentation
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing Sinatra instrumentation
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing Sequel instrumentation
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing Thread Instrumentation
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing Tilt instrumentation
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 13:53:50 +0300 workstation (1212866)] INFO : Finished instrumentation
+[2022-10-03 13:53:51 +0300 workstation (1212866)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 13:53:51 +0300 workstation (1212866)] INFO : Installing http.rb Wrappers
+[2022-10-03 13:53:51 +0300 workstation (1212866)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:33:40 +0300 workstation (1212866)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:33:40 +0300 workstation (1212866)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:33:40 +0300 workstation (1212866)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 14:33:57 +0300 workstation (1212866)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:33:57 +0300 workstation (1212866)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:33:57 +0300 workstation (1212866)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 14:34:17 +0300 workstation (1212866)] INFO : Starting Agent shutdown
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:34:22 +0300 workstation (1238854)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:34:22 +0300 workstation (1238854)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Environment: development
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : No known dispatcher detected.
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Application: development
+[2022-10-03 14:34:22 +0300 workstation (1238854)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing Logger instrumentation
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:34:22 +0300 workstation (1238854)] INFO : Finished instrumentation
+[2022-10-03 14:34:23 +0300 workstation (1238854)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:34:23 +0300 workstation (1238854)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:34:23 +0300 workstation (1238854)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:34:35 +0300 workstation (1238993)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:34:35 +0300 workstation (1238993)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Environment: development
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : No known dispatcher detected.
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Application: development
+[2022-10-03 14:34:35 +0300 workstation (1238993)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing Logger instrumentation
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:34:35 +0300 workstation (1238993)] INFO : Finished instrumentation
+[2022-10-03 14:34:36 +0300 workstation (1238993)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:34:36 +0300 workstation (1238993)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:34:36 +0300 workstation (1238993)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:34:49 +0300 workstation (1238993)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:34:49 +0300 workstation (1238993)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:34:49 +0300 workstation (1238993)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 14:35:07 +0300 workstation (1238993)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:35:07 +0300 workstation (1238993)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:35:07 +0300 workstation (1238993)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 14:35:26 +0300 workstation (1238993)] INFO : Starting Agent shutdown
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:35:31 +0300 workstation (1239667)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:35:31 +0300 workstation (1239667)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Environment: development
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : No known dispatcher detected.
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Application: development
+[2022-10-03 14:35:31 +0300 workstation (1239667)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing Logger instrumentation
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:35:31 +0300 workstation (1239667)] INFO : Finished instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:35:53 +0300 workstation (1239883)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:35:53 +0300 workstation (1239883)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Environment: development
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : No known dispatcher detected.
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Application: development
+[2022-10-03 14:35:53 +0300 workstation (1239883)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing Logger instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:35:53 +0300 workstation (1239883)] INFO : Finished instrumentation
+[2022-10-03 14:35:54 +0300 workstation (1239883)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:35:54 +0300 workstation (1239883)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:35:54 +0300 workstation (1239883)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:36:42 +0300 workstation (1239883)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:36:42 +0300 workstation (1239883)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:36:42 +0300 workstation (1239883)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 14:37:00 +0300 workstation (1239883)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:37:00 +0300 workstation (1239883)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:37:00 +0300 workstation (1239883)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 14:37:06 +0300 workstation (1239883)] INFO : Starting Agent shutdown
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:37:11 +0300 workstation (1240789)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:37:11 +0300 workstation (1240789)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Environment: development
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : No known dispatcher detected.
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Application: development
+[2022-10-03 14:37:11 +0300 workstation (1240789)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing Logger instrumentation
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:37:11 +0300 workstation (1240789)] INFO : Finished instrumentation
+[2022-10-03 14:37:12 +0300 workstation (1240789)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:37:12 +0300 workstation (1240789)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:37:12 +0300 workstation (1240789)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:39:36 +0300 workstation (1242206)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:39:36 +0300 workstation (1242206)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Environment: development
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : No known dispatcher detected.
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Application: development
+[2022-10-03 14:39:36 +0300 workstation (1242206)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing Logger instrumentation
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:39:36 +0300 workstation (1242206)] INFO : Finished instrumentation
+[2022-10-03 14:39:37 +0300 workstation (1242206)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:39:37 +0300 workstation (1242206)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:39:37 +0300 workstation (1242206)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:41:29 +0300 workstation (1242206)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:41:29 +0300 workstation (1242206)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:41:29 +0300 workstation (1242206)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 14:41:45 +0300 workstation (1242206)] INFO : Starting Agent shutdown
+[2022-10-03 14:41:46 +0300 workstation (1242206)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:41:46 +0300 workstation (1242206)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:41:46 +0300 workstation (1242206)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:41:50 +0300 workstation (1244077)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:41:50 +0300 workstation (1244077)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Environment: development
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : No known dispatcher detected.
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Application: development
+[2022-10-03 14:41:50 +0300 workstation (1244077)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing Logger instrumentation
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:41:50 +0300 workstation (1244077)] INFO : Finished instrumentation
+[2022-10-03 14:41:51 +0300 workstation (1244077)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:41:51 +0300 workstation (1244077)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:41:51 +0300 workstation (1244077)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 14:41:53 +0300 workstation (1244121)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 14:41:53 +0300 workstation (1244121)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Environment: development
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : No known dispatcher detected.
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Application: development
+[2022-10-03 14:41:53 +0300 workstation (1244121)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing Logger instrumentation
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing Sinatra instrumentation
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing Sequel instrumentation
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing Thread Instrumentation
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing Tilt instrumentation
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 14:41:53 +0300 workstation (1244121)] INFO : Finished instrumentation
+[2022-10-03 14:41:54 +0300 workstation (1244121)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 14:41:54 +0300 workstation (1244121)] INFO : Installing http.rb Wrappers
+[2022-10-03 14:41:54 +0300 workstation (1244121)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend
+[2022-10-03 14:42:08 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:42:08 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:42:08 +0300 workstation (1244121)] INFO : Will re-attempt in 15 seconds
+[2022-10-03 14:42:26 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:42:26 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:42:26 +0300 workstation (1244121)] INFO : Will re-attempt in 30 seconds
+[2022-10-03 14:42:59 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:42:59 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:42:59 +0300 workstation (1244121)] INFO : Will re-attempt in 60 seconds
+[2022-10-03 14:44:02 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:44:02 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:44:02 +0300 workstation (1244121)] INFO : Will re-attempt in 120 seconds
+[2022-10-03 14:46:04 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:46:04 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:46:04 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 14:51:07 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:51:07 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:51:07 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 14:56:15 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 14:56:15 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 14:56:15 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:01:18 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:01:18 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:01:18 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:06:21 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:06:21 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:06:21 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:11:24 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:11:24 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:11:24 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:16:27 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:16:27 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:16:27 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:21:30 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:21:30 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:21:30 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:26:33 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:26:33 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:26:33 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:31:36 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:31:36 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:31:36 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:36:39 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:36:39 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:36:39 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:41:42 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:41:42 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:41:42 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:46:45 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:46:45 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:46:45 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:51:48 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:51:48 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:51:48 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 15:56:51 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 15:56:51 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 15:56:51 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:01:54 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 16:01:54 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 16:01:54 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:06:57 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 16:06:57 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 16:06:57 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:12:00 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 16:12:00 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 16:12:00 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:17:03 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 16:17:03 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 16:17:03 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:22:06 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 16:22:06 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 16:22:06 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:27:09 +0300 workstation (1244121)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-10-03 16:27:09 +0300 workstation (1244121)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-10-03 16:27:09 +0300 workstation (1244121)] INFO : Will re-attempt in 300 seconds
+[2022-10-03 16:27:31 +0300 workstation (1244121)] INFO : Starting Agent shutdown
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Starting the New Relic agent version 8.10.0 in "development" environment.
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-10-03 16:27:36 +0300 workstation (1309319)] WARN : No configuration file found. Working directory = /code/mirror
+[2022-10-03 16:27:36 +0300 workstation (1309319)] WARN : Looked in these locations (based on defaults): /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /code/mirror/config/newrelic.yml, /code/mirror/newrelic.yml, /code/mirror/config/newrelic.yml.erb, /code/mirror/newrelic.yml.erb, /home/user/.newrelic/newrelic.yml, /home/user/newrelic.yml, /home/user/.newrelic/newrelic.yml.erb, /home/user/newrelic.yml.erb
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Environment: development
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : No known dispatcher detected.
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Application: development
+[2022-10-03 16:27:36 +0300 workstation (1309319)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing ActiveSupport::Logger instrumentation
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing Logger instrumentation
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing Net:HTTP Wrappers
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing Sinatra instrumentation
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing Sequel instrumentation
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing Thread Instrumentation
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing Tilt instrumentation
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-10-03 16:27:36 +0300 workstation (1309319)] INFO : Finished instrumentation
+[2022-10-03 16:27:37 +0300 workstation (1309319)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-10-03 16:27:37 +0300 workstation (1309319)] INFO : Installing http.rb Wrappers
+[2022-10-03 16:27:37 +0300 workstation (1309319)] INFO : Installing New Relic supported HTTPrb instrumentation using Prepend

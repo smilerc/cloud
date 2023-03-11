@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import '_defs.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+}
+
+article {
+  padding: 0;
+}
+
+.unstyled {
+  padding: 0;
+  margin-left: 0;
+  list-style: none;
+
+  li {
+    margin-left: 0;
+  }
+}
+
+a.no-underline {
+
+  border-bottom: 0;
+
+  &:hover {
+    border-bottom: 0;
+  }
+}
+
+a.special {
+
+  color: $blue;
+
+}
+
+a.pay-link {
+
+  text-decoration: underline;
+
+}
+
+
+header {
+  padding: 0;
+}
+
+.navi {
+
+  margin-left: 0;
+  margin-bottom: $spacing;
+
+  li {
+    display: inline-block;
+    margin-right: $spacing;
+
+    img {
+      vertical-align: middle;
+      margin-right: 100px;
+    }
+
+  }
+}
+
+.alerts {
+  color: $black;
+  background-color: $yellow;
+  padding: $spacing;
+  text-align: left;
+}
+
+.btn-blue {
+  color: $white;
+  background: $blue !important;
+
+  &:hover {
+    color: $white;
+    background: darken($blue, 15) !important;
+  }
+}
+
+.break-word {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  line-height: 1.3em;
+}
+
+.api-ul {
+
+  li {
+    margin-bottom: 1em;
+  }
+
+}
+
+.a-btn {
+  font-size: 1em;
+  background: darken($white, 5);
+  color: darken($gray, 25);
+  cursor: pointer;
+  display: inline;
+  margin-bottom: 0;
+  margin-right: .4 * $em;
+  text-align: center;
+  border-radius: .2 * $spacing;
+  display: inline-block;
+  padding: 10px 20px;
+
+  &:hover {
+    background: darken($white, 15);
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.b-btn {
+  @extend .a-btn;
+  background: $blue;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background: darken($blue, 15);
+  }
+}
+
+.o-btn {
+  @extend .a-btn;
+  background: $orange;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background: darken($orange, 15);
+  }
+}
+
+.r-btn {
+  @extend .a-btn;
+  background: $red;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background: darken($red, 15);
+  }
+}
+
+.loader {
+  display: none;
+}
+
+.not-found {
+  display: none;
+}
+
+.pressed {
+  background-color: darken($red, 20);
+}
+
+.g-btn {
+  @extend .a-btn;
+  background: $green;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background: darken($green, 15);
+  }
+}
+
+.pagination {
+
+  * {
+    @extend .a-btn;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .current {
+    background: darken($white, 25);
+    color: white;
+    font-style: normal;
+  }
+
+}
+
+.gray {
+  color: $gray;
+}
+
+.announce {
+  background-color: $yellow;
+  padding: 2em;
+  text-align: center;
+  margin: 3em 0 3em;
+}
+
+.cyan {
+  background-color: $cyan;
+}
+
+.super-bold {
+  font-weight: 800;
+}
+
+.shop {
+  font-weight: 800;
+  font-size: 2.5em;
+  color: $black;
+}
+
+.mono {
+  font-family: monospace;
+}
+
+.flash {
+  background: $yellow;
+  padding: $spacing;
+}
+
+table {
+
+  tr.inactive {
+    color: $gray;
+    background-color: #efefef;
+  }
+}
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.check-trade-button {
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+.flash {
+  font-size: 1.2em;
+  display: inline-block;
+  background-color: $pink;
+  margin: 10px 0 10px 0;
+}

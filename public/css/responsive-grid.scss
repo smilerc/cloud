@@ -1,0 +1,157 @@
+@import '_defs.scss';
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  column-gap: 40px;
+  row-gap: 40px;
+  align-content: flex-start;
+}
+
+.item {
+  text-align: center;
+  word-break: break-all;
+}
+
+.face-article {
+  padding: 0 0 4em;
+}
+
+body {
+  font-size: 1.1em;
+}
+
+.face-content {
+  padding: .5em;
+  text-align: left;
+}
+
+.payment-content {
+  padding: .5em;
+  text-align: center;
+}
+
+.face-h1 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+.hint {
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+
+.card {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: 800;
+  background-color: $yellow;
+  padding: 10px;
+}
+
+@media (min-width: 576px) {
+
+  .face-content {
+    padding: 0.5em;
+  }
+
+  .hint {
+    font-size: 1.7em;
+  }
+
+  .card {
+    font-size: 2.7em;
+    line-height: 1.1em;
+  }
+
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+
+  body {
+    padding: 2em;
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
+
+  .card {
+    font-size: 3em;
+    line-height: 1.1em;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(26%, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+
+  body {
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+
+  .hint {
+    font-size: 1.6em;
+  }
+
+  .card {
+    font-size: 2.7em;
+    line-height: 1.1em;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+
+  body {
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+
+  .hint {
+    font-size: 1.6em;
+  }
+
+  .card {
+    line-height: 1.1em;
+    font-size: 2.7em;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(17%, 1fr));
+  }
+}
+
+@media (min-width: 1400px) {
+
+  body {
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
+
+  .card {
+    font-size: 2.7em;
+    line-height: 1.1em;
+  }
+
+  .hint {
+    font-size: 1.6em;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(17%, 1fr));
+  }
+}

@@ -1,0 +1,46 @@
+@media (max-width: $mobile-width) {
+  body {
+    padding: $spacing .5em;
+  }
+
+  article {
+    border: 0;
+    padding: $spacing;
+  }
+
+  header,
+  footer {
+    padding: $spacing;
+  }
+
+  textarea,
+  input,
+  select {
+    min-width: 0;
+  }
+
+  fieldset {
+    // The following line fixes fieldset overflow in webkit browsers.
+    // For further info see:
+    // http://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content/17863685#17863685
+    min-width: 0;
+
+    * {
+      flex-grow: 1;
+      page-break-before: auto;
+    }
+  }
+
+  section {
+    width: auto;
+  }
+
+  x:-moz-any-link {
+    // The following lines fixes fieldset overflow bug in Firefox browser.
+    // For further info, see:
+    // http://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content/17863685#17863685
+    // Changed the original `@-moz-document url-prefix` code to simpler
+    // `-moz-any-link` hack so W3C CSS validator will pass it.
+    display: table-cell;
+  }
+}

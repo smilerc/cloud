@@ -1,0 +1,61 @@
+@import '_defs.scss';
+
+th {
+  font-weight: 600;
+}
+
+td,
+th {
+  border-bottom: (.06 * $em) solid $gray;
+  padding: .825 * $em $em;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  border-bottom-width: .12 * $em;
+  padding-bottom: .35 * $em;
+}
+
+table {
+  display: table;
+  width: 100%;
+
+  @media all and (max-width: 1024px) {
+    display: none;
+  }
+
+  thead {
+    @media all and (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  tr {
+    border-bottom-width: .12 * $em;
+
+    th {
+      border-bottom-width: .12 * $em;
+    }
+
+    td,
+    th {
+      overflow: hidden;
+      padding: .7 * $em .5 * $em;
+
+      @media all and (max-width: 1024px) {
+        border: 0;
+        display: inline-block;
+      }
+    }
+
+    @media all and (max-width: 1024px) {
+      display: inline-block;
+      margin: .6 * $em 0;
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    display: inline-block;
+  }
+}

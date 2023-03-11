@@ -1,0 +1,30 @@
+@import '_defs.scss';
+
+pre,
+code,
+kbd,
+samp,
+var,
+output {
+  font-family: $monospace;
+}
+
+code,
+kbd {
+  background: lighten($green, 60);
+  border-radius: .2 * $spacing;
+  color: $green;
+  display: inline-block;
+  line-height: $em;
+  padding: (.2 * $em) (.35 * $em) (.15 * $em);
+}
+
+kbd {
+  background: $green;
+  color: $white;
+}
+
+mark {
+  background: $yellow;
+  padding: 0 (.2 * $em);
+}

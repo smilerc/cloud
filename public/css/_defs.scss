@@ -1,0 +1,30 @@
+$em: calc(18 / 16) * 1rem;
+$spacing: 18px;
+
+// fonts
+$sans-serif: system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$monospace: Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+// colors
+$black: #252525;
+$white: #fff;
+$gray: #868686;
+$blue: #0055b9;
+$red: #ff0000;
+$orange: #e5670a;
+$green: #2c9646;
+$yellow: #ffc;
+$pink: #fee;
+$cyan: #d4ffff;
+
+// responsive
+$mobile-width: 767px;
+
+%sans-serif {
+  font-family: 'JetBrains Mono';
+  font-size: $em;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65 * $em;
+}
