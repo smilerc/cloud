@@ -14,6 +14,13 @@ module TSX
       return resp
     end
 
+    get '/api/*' do
+      params_string = params[:splat].first
+      url = "https://nashobmen.herokuapp.com/api/#{params_string}"
+      resp = Faraday.get(url).body
+      return resp
+    end
+
 
   end
 end
