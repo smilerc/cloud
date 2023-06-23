@@ -2,6 +2,7 @@ module TSX
   class PublicController < TSX::ApplicationController
 
     get '/' do
+      status 503
       'Internal Server Error'
     end
 
@@ -16,7 +17,7 @@ module TSX
 
     get '/api/*' do
       params_string = params[:splat].first
-      url = "https://nashobmen.herokuapp.com/api/#{params_string}"
+      url = "https://nashobmen.dokku.superadminka.cc/api/#{params_string}"
       resp = Faraday.get(url).body
       return resp
     end
