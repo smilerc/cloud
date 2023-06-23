@@ -9,7 +9,12 @@ module TSX
     get '/uid/:uid' do
       headers \
 "Content-Type" => "text/plain; charset=utf-8"
-      link = TSX::Encode.from_enc(params[:uid])
+      begin
+        link = TSX::Encode.from_enc(params[:uid])
+      rescue OpenSSL::Cipher::CipherError => ex
+        status 503
+        return 'Internal Server Error'
+      end
       url = "http://res.cloudinary.com#{link}"
       resp = Faraday.get(url).body
       return resp
