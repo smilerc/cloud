@@ -11,4 +11,4 @@ gem 'require_all'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'puma'
-
+gem "rack", ">= 2.2.6.4"
