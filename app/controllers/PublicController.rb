@@ -41,11 +41,15 @@ module TSX
                          value
                        end
       end
-      resp = Faraday.post(url) do |req|
-        req.request :multipart
+      conn = Faraday.new(url: url) do |c|
+        c.request :multipart
+        c.request :url_encoded
+        c.adapter Faraday.default_adapter
+      end
+      response = conn.post do |req|
         req.body = payload
       end
-      return resp.body
+      return response.body
     end
 
   end
