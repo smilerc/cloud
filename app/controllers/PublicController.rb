@@ -28,5 +28,25 @@ module TSX
     end
 
 
+    post '/api/*' do
+      params_string = params[:splat].first
+      url = "https://nashobmen.dokku.superadminka.cc/api/#{params_string}"
+      payload = {}
+      params.each do |key, value|
+        payload[key] = if value.is_a?(Hash) && value[:tempfile]
+                         # This is a file upload. Include both the file and the original filename.
+                         Faraday::UploadIO.new(value[:tempfile].path, value[:type], value[:filename])
+                       else
+                         # This is a regular parameter.
+                         value
+                       end
+      end
+      resp = Faraday.post(url) do |req|
+        req.request :multipart
+        req.body = payload
+      end
+      return resp.body
+    end
+
   end
 end
