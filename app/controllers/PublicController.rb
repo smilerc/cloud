@@ -28,6 +28,11 @@ module TSX
     end
 
     post '/api/create_dispute' do
+      puts params.inspect
+      if params[:splat].count == 0
+        status 503
+        return [{result: 'error', 'There are required parameters'}].to_json
+      end
       params_string = params[:splat].first
       url = "https://nashobmen.dokku.goodapi.top/api/#{params_string}"
       payload = {}
