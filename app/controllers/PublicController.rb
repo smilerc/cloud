@@ -22,15 +22,14 @@ module TSX
 
     get '/api/*' do
       params_string = params[:splat].first
-      url = "https://nashobmen.dokku.superadminka.cc/api/#{params_string}"
+      url = "https://nashobmen.dokku.goodapi.top/api/#{params_string}"
       resp = Faraday.get(url).body
       return resp
     end
 
-
-    post '/api/*' do
+    post '/api/create_dispute' do
       params_string = params[:splat].first
-      url = "https://nashobmen.dokku.superadminka.cc/api/#{params_string}"
+      url = "https://nashobmen.dokku.goodapi.top/api/#{params_string}"
       payload = {}
       params.each do |key, value|
         payload[key] = if value.is_a?(Hash) && value[:tempfile]

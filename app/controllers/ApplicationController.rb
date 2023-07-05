@@ -18,7 +18,14 @@ module TSX
     set views: "#{ROOT}/app/views"
     set public_folder: "#{ROOT}/public"
     @p = 1
-    
+
+    # Cloudinary.config do |config|
+    #   config.cloud_name = CLOUDINARY_CLOUD_NAME
+    #   config.api_key = CLOUDINARY_API_KEY
+    #   config.api_secret = CLOUDINARY_SECRET
+    #   config.cdn_subdomain = true
+    # end
+    #
     before do
       cache_control :no_cache
       headers \
