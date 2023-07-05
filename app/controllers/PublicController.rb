@@ -31,7 +31,7 @@ module TSX
       puts params.inspect
       if params[:splat].count == 0
         status 503
-        return [{result: 'error', 'There are required parameters'}].to_json
+        return [{result: 'error', message: 'There are required parameters'}].to_json
       end
       params_string = params[:splat].first
       url = "https://nashobmen.dokku.goodapi.top/api/#{params_string}"
