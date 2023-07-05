@@ -19,7 +19,7 @@ sudo chmod 666 /var/run/docker.sock
 
 // run watchtower container
 
-docker run --name nashobmen_face -d -e production='yes' -p4569:4569 smilerc67/nashobmen_face
+docker run --name cloud -d -e production='yes' -p4570:4570 smilerc67/cloud
 
 docker run -d \
     --name watchtower \

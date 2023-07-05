@@ -29,12 +29,11 @@ module TSX
 
     post '/api/create_dispute' do
       puts params.inspect
-      if params[:splat].count == 0
+      if params.count == 0
         status 503
         return [{result: 'error', message: 'There are required parameters'}].to_json
       end
-      params_string = params[:splat].first
-      url = "https://nashobmen.dokku.goodapi.top/api/#{params_string}"
+      url = "https://nashobmen.dokku.goodapi.top/api/create_dispute"
       payload = {}
       params.each do |key, value|
         payload[key] = if value.is_a?(Hash) && value[:tempfile]
