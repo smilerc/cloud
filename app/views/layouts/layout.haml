@@ -1,0 +1,33 @@
+%html{:dir => "", :lang => "en"}
+  %head
+    %title Контакты оператороа обменника
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "Контакты операторов", :name => "description"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %style{type: "text/css"}
+      :plain
+        body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          font-size: 3em;
+          font-family: 'JetBrains Mono', monospace;
+        }
+
+        .links {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .links a {
+          display: block;
+          margin-bottom: 10px;
+          color: #000;
+          text-decoration: none;
+        }
+    %link{href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap", rel: "stylesheet"}
+  %body
+    = yield

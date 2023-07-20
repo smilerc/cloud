@@ -1,0 +1,5 @@
+.links
+  %h4 Актуальные контакты операторов
+  - @contacts.each do |contact|
+    %a{href: "https://t.me/#{contact}"}
+      = "@#{contact}"
