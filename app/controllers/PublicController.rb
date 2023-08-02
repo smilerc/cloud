@@ -2,6 +2,11 @@ module TSX
   class PublicController < TSX::ApplicationController
 
     get '/' do
+      if request.host != 'shopsupport.top'
+        status 404
+        'Internal Server Error'
+        return
+      end
       @contacts = JSON.parse(Faraday.get("https://#{API_DOMAIN}/api/get_support").body)
       haml :'web/index', layout: :'layouts/layout', :escape_html => false
     end
