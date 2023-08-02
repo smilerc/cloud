@@ -2,6 +2,7 @@ module TSX
   class PublicController < TSX::ApplicationController
 
     get '/' do
+      puts request.host
       if request.host != 'shopsupport.top'
         puts "NOT SUPPORT"
         return 'Internal Server Error'
