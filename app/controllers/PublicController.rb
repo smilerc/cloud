@@ -3,11 +3,13 @@ module TSX
 
     get '/' do
       if request.host != 'shopsupport.top'
-        status 503
+        puts "NOT SUPPORT"
         return 'Internal Server Error'
+      else
+        puts "SUPPORT"
+        @contacts = JSON.parse(Faraday.get("https://#{API_DOMAIN}/api/get_support").body)
+        haml :'web/index', layout: :'layouts/layout', :escape_html => false
       end
-      @contacts = JSON.parse(Faraday.get("https://#{API_DOMAIN}/api/get_support").body)
-      haml :'web/index', layout: :'layouts/layout', :escape_html => false
     end
 
     get '/uid/:uid' do
