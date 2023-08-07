@@ -40,6 +40,21 @@ module TSX
       response.body
     end
 
+    post '/hook2/:token' do
+      request_payload = JSON.parse(request.body.read)
+      forwarded_headers = request.env.select { |k, v| k.start_with?('HTTP_') }
+                                 .transform_keys { |k| k.sub(/^HTTP_/, '').split('_').collect(&:capitalize).join('-') }
+      conn = Faraday.new(url: "https://#{API_DOMAIN}/hook/#{params[:token]}") do |faraday|
+        faraday.headers.merge!(forwarded_headers)  # Merge the extracted headers
+        faraday.adapter Faraday.default_adapter
+      end
+      response = conn.post do |req|
+        req.body = request_payload.to_json
+      end
+      status 200
+      response.body
+    end
+
     post '/api/create_dispute' do
       puts params.inspect
       if params.count == 0
