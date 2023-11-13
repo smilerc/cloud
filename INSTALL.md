@@ -21,7 +21,7 @@ sudo chmod 666 /var/run/docker.sock
 
 docker run --name cloud -d -e production='yes' -p4570:4570 smilerc67/cloud
 
-docker run -d \
+docker run -d --restart=always \
     --name watchtower \
     -e WATCHTOWER_POLL_INTERVAL=60 \
     -e REPO_USER=smilerc67 \
@@ -30,7 +30,7 @@ docker run -d \
     containrrr/watchtower
 
 
-docker run -d \
+docker run -d --restart=always \
     --name watchtower \
     -e WATCHTOWER_POLL_INTERVAL=60 \
     -e REPO_USER=smilerc67 \

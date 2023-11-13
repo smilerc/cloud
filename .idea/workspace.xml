@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9dd7641a-1c5f-41e8-882e-c69f5cea7e6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INSTALL.md" beforeDir="false" afterPath="$PROJECT_DIR$/INSTALL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/PublicController.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/PublicController.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,35 @@
       <workItem from="1688293523468" duration="15533000" />
       <workItem from="1689858203557" duration="9624000" />
       <workItem from="1690393009617" duration="5579000" />
-      <workItem from="1691421980659" duration="2120000" />
+      <workItem from="1691421980659" duration="3324000" />
+      <workItem from="1692042549912" duration="612000" />
+      <workItem from="1692044569700" duration="2665000" />
+      <workItem from="1692119903836" duration="2745000" />
+      <workItem from="1692373523667" duration="7039000" />
+      <workItem from="1693056078130" duration="2562000" />
+      <workItem from="1693063329617" duration="2384000" />
+      <workItem from="1693139376068" duration="3955000" />
+      <workItem from="1693311207548" duration="2394000" />
+      <workItem from="1693821027412" duration="4920000" />
+      <workItem from="1694264065527" duration="594000" />
+      <workItem from="1694270241891" duration="1195000" />
+      <workItem from="1694596718284" duration="596000" />
+      <workItem from="1694705912226" duration="2739000" />
+      <workItem from="1695279089948" duration="1193000" />
+      <workItem from="1695795867840" duration="1193000" />
+      <workItem from="1695814005890" duration="2393000" />
+      <workItem from="1696137772069" duration="595000" />
+      <workItem from="1696252313215" duration="1192000" />
+      <workItem from="1697004370490" duration="7518000" />
+      <workItem from="1697354936742" duration="598000" />
+      <workItem from="1697377686615" duration="597000" />
+      <workItem from="1697441109982" duration="597000" />
+      <workItem from="1697448444871" duration="2988000" />
+      <workItem from="1697639782810" duration="8449000" />
+      <workItem from="1697811470002" duration="629000" />
+      <workItem from="1697885477199" duration="9391000" />
+      <workItem from="1698299692885" duration="12294000" />
+      <workItem from="1699864207906" duration="32000" />
     </task>
     <servers />
   </component>

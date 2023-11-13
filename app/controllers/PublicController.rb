@@ -2,8 +2,10 @@ module TSX
   class PublicController < TSX::ApplicationController
 
     get '/' do
-      @contacts = JSON.parse(Faraday.get("https://#{API_DOMAIN}/api/get_support").body)
-      haml :'web/index', layout: :'layouts/layout', :escape_html => false
+      status 503
+      'Internal Server Error'
+      # @contacts = JSON.parse(Faraday.get("https://#{API_DOMAIN}/api/get_support").body)
+      # haml :'web/index', layout: :'layouts/layout', :escape_html => false
     end
 
     get '/uid/:uid' do
