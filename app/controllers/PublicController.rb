@@ -29,19 +29,6 @@ module TSX
       return resp
     end
 
-    # post '/hook/:token' do
-    #   request_payload = JSON.parse(request.body.read)
-    #   conn = Faraday.new(url: "https://#{API_DOMAIN}/hook/#{params[:token]}") do |faraday|
-    #     faraday.headers['Content-Type'] = 'application/json'
-    #     faraday.adapter Faraday.default_adapter
-    #   end
-    #   response = conn.post do |req|
-    #     req.body = request_payload.to_json
-    #   end
-    #   status 200
-    #   response.body
-    # end
-
     post '/hook/:token' do
       request_payload = JSON.parse(request.body.read)
       forwarded_headers = request.env.select { |k, v| k.start_with?('HTTP_') }
@@ -64,6 +51,8 @@ module TSX
         return [{result: 'error', message: 'There are required parameters'}].to_json
       end
       url = "https://#{API_DOMAIN}/api/create_dispute"
+      puts "check 0"
+      puts url
       payload = {}
       params.each do |key, value|
         payload[key] = if value.is_a?(Hash) && value[:tempfile]
@@ -74,13 +63,34 @@ module TSX
                          value
                        end
       end
+      puts payload.inspect
+      puts "check 1"
       conn = Faraday.new(url: url) do |c|
         c.request :multipart
         c.request :url_encoded
         c.adapter Faraday.default_adapter
       end
+      puts "check 2"
       response = conn.post do |req|
         req.body = payload
+      end
+      return response.body
+    end
+
+    post ['/api/save_push', '/api/exception'] do
+      puts params.inspect
+      if params.count == 0
+        status 503
+        return [{result: 'error', message: 'There are required parameters'}].to_json
+      end
+      path = request.path_info.sub('/api/', '')
+      url = "https://#{API_DOMAIN}/api/#{path}"
+      conn = Faraday.new(url: url) do |c|
+        c.request :url_encoded
+        c.adapter Faraday.default_adapter
+      end
+      response = conn.post do |req|
+        req.body = params  # Forward all POST data as-is
       end
       return response.body
     end
