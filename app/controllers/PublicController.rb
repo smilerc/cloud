@@ -45,36 +45,41 @@ module TSX
     end
 
     post '/api/create_dispute' do
-      puts params.inspect
-      if params.count == 0
-        status 503
-        return [{result: 'error', message: 'There are required parameters'}].to_json
+      begin
+        puts params.inspect
+        if params.count == 0
+          status 503
+          return [{result: 'error', message: 'There are required parameters'}].to_json
+        end
+        url = "https://#{API_DOMAIN}/api/create_dispute"
+        puts "check 0"
+        puts url
+        payload = {}
+        params.each do |key, value|
+          payload[key] = if value.is_a?(Hash) && value[:tempfile]
+                           # This is a file upload. Include both the file and the original filename.
+                           Faraday::UploadIO.new(value[:tempfile].path, value[:type], value[:filename])
+                         else
+                           # This is a regular parameter.
+                           value
+                         end
+        end
+        puts payload.inspect
+        puts "check 1"
+        conn = Faraday.new(url: url) do |c|
+          c.request :multipart
+          c.request :url_encoded
+          c.adapter Faraday.default_adapter
+        end
+        puts "check 2"
+        response = conn.post do |req|
+          req.body = payload
+        end
+        return response.body
+      rescue => ex
+        puts ex.message
+        puts ex.backtrace.join("\n\t")
       end
-      url = "https://#{API_DOMAIN}/api/create_dispute"
-      puts "check 0"
-      puts url
-      payload = {}
-      params.each do |key, value|
-        payload[key] = if value.is_a?(Hash) && value[:tempfile]
-                         # This is a file upload. Include both the file and the original filename.
-                         Faraday::UploadIO.new(value[:tempfile].path, value[:type], value[:filename])
-                       else
-                         # This is a regular parameter.
-                         value
-                       end
-      end
-      puts payload.inspect
-      puts "check 1"
-      conn = Faraday.new(url: url) do |c|
-        c.request :multipart
-        c.request :url_encoded
-        c.adapter Faraday.default_adapter
-      end
-      puts "check 2"
-      response = conn.post do |req|
-        req.body = payload
-      end
-      return response.body
     end
 
     post ['/api/save_push', '/api/exception'] do
