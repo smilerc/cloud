@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd7641a-1c5f-41e8-882e-c69f5cea7e6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INSTALL.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +93,13 @@
       <workItem from="1705153956789" duration="2403000" />
       <workItem from="1705429423452" duration="5387000" />
       <workItem from="1706448897255" duration="9556000" />
-      <workItem from="1707617869231" duration="6584000" />
+      <workItem from="1707617869231" duration="14581000" />
+      <workItem from="1708602257857" duration="2992000" />
+      <workItem from="1709473818389" duration="3662000" />
+      <workItem from="1709634731725" duration="1833000" />
+      <workItem from="1710859614803" duration="1238000" />
+      <workItem from="1711565386962" duration="6165000" />
+      <workItem from="1718363272027" duration="105000" />
     </task>
     <servers />
   </component>
