@@ -82,7 +82,7 @@ module TSX
       end
     end
 
-    post ['/api/save_push', '/api/exception'] do
+    post ['/api/save_push', '/api/exception', '/api/callback/*'] do
       puts params.inspect
       if params.count == 0
         status 503

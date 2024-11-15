@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd7641a-1c5f-41e8-882e-c69f5cea7e6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INSTALL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/PublicController.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/PublicController.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +96,19 @@
       <workItem from="1709634731725" duration="1833000" />
       <workItem from="1710859614803" duration="1238000" />
       <workItem from="1711565386962" duration="6165000" />
-      <workItem from="1718363272027" duration="105000" />
+      <workItem from="1718363272027" duration="828000" />
+      <workItem from="1718465186136" duration="1164000" />
+      <workItem from="1718556975335" duration="2409000" />
+      <workItem from="1718805523950" duration="1186000" />
+      <workItem from="1719067839306" duration="2387000" />
+      <workItem from="1719422126738" duration="596000" />
+      <workItem from="1719508405252" duration="1791000" />
+      <workItem from="1719573143799" duration="2136000" />
+      <workItem from="1721123665161" duration="2277000" />
+      <workItem from="1731156019908" duration="1212000" />
+      <workItem from="1731239695817" duration="2568000" />
+      <workItem from="1731426835203" duration="4776000" />
+      <workItem from="1731684796814" duration="1359000" />
     </task>
     <servers />
   </component>
