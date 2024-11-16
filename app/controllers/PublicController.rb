@@ -82,7 +82,7 @@ module TSX
       end
     end
 
-    post ['/api/save_push', '/api/exception', '/api/callback/*'] do
+    post ['/api/save_push', '/api/exception'] do
       puts params.inspect
       if params.count == 0
         status 503
@@ -97,6 +97,55 @@ module TSX
       response = conn.post do |req|
         req.body = params  # Forward all POST data as-is
       end
+      return response.body
+    end
+
+    # Separate route for callback with JSON handling
+    post '/api/callback/*' do
+      puts params.inspect
+      if params.count == 0
+        status 503
+        return [{result: 'error', message: 'There are required parameters'}].to_json
+      end
+
+      path = request.path_info.sub('/api/', '')
+      url = "https://#{API_DOMAIN}/api/#{path}"
+
+      # Get raw body and headers
+      request.body.rewind
+      raw_body = request.body.read
+
+      # Parse payload based on content type
+      payload = if request.content_type == 'application/json'
+                  JSON.parse(raw_body) rescue {}
+                else
+                  URI.decode_www_form(raw_body).to_h rescue {}
+                end
+
+      # Merge all data
+      data = {
+        params: params,
+        body: payload,
+        headers: request.env.select { |k,v| k.start_with?('HTTP_') },
+        method: request.request_method,
+        content_type: request.content_type,
+        query_string: request.query_string,
+        ip: request.ip,
+        user_agent: request.user_agent
+      }
+
+      # Create Faraday connection with JSON handling
+      conn = Faraday.new(url: url) do |c|
+        c.request :json
+        c.headers['Content-Type'] = 'application/json'
+        c.adapter Faraday.default_adapter
+      end
+
+      # Forward request with all data
+      response = conn.post do |req|
+        req.body = data.to_json
+      end
+
       return response.body
     end
 
