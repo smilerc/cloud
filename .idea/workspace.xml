@@ -7,6 +7,7 @@
     <list default="true" id="9dd7641a-1c5f-41e8-882e-c69f5cea7e6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/PublicController.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/PublicController.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,10 @@
       <workItem from="1731156019908" duration="1212000" />
       <workItem from="1731239695817" duration="2568000" />
       <workItem from="1731426835203" duration="4776000" />
-      <workItem from="1731684796814" duration="4049000" />
+      <workItem from="1731684796814" duration="4650000" />
+      <workItem from="1731864717797" duration="589000" />
+      <workItem from="1732118843835" duration="3305000" />
+      <workItem from="1732797728969" duration="1840000" />
     </task>
     <servers />
   </component>
