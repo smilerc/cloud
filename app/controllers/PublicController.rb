@@ -29,34 +29,75 @@ module TSX
       return resp
     end
 
-    post '/hook/:token' do
+    def forward_webhook(token, target_domain, include_content_headers: false)
+      puts "\n=== Incoming Webhook ==="
+      puts "Token: #{token}"
+
+      # Log raw request and payload
+      raw_body = request.body.read
+      puts "Raw body: #{raw_body}"
+      request.body.rewind
+
       request_payload = JSON.parse(request.body.read)
-      forwarded_headers = request.env.select { |k, v| k.start_with?('HTTP_') }
-                                 .transform_keys { |k| k.sub(/^HTTP_/, '').split('_').collect(&:capitalize).join('-') }
-      conn = Faraday.new(url: "https://#{API_DOMAIN}/hook/#{params[:token]}") do |faraday|
-        faraday.headers.merge!(forwarded_headers)  # Merge the extracted headers
+      puts "Parsed payload: #{request_payload.inspect}"
+      request.body.rewind
+
+      # Log headers being forwarded
+      puts "\n=== Headers ==="
+      header_prefixes = include_content_headers ? ['HTTP_', 'CONTENT_'] : ['HTTP_']
+      forwarded_headers = request.env.select { |k, v| header_prefixes.any? { |prefix| k.start_with?(prefix) } }
+                                 .transform_keys { |k| k.sub(/^(?:HTTP_|CONTENT_)/, '').split('_').collect(&:capitalize).join('-') }
+      forwarded_headers['Host'] = URI("https://#{target_domain}").host
+      puts "Forwarding headers: #{forwarded_headers.inspect}"
+
+      # Log where we're sending
+      target_url = "https://#{target_domain}/hook/#{token}"
+      puts "\n=== Forwarding ==="
+      puts "Target URL: #{target_url}"
+
+      conn = Faraday.new(url: target_url) do |faraday|
+        faraday.headers.merge!(forwarded_headers)
         faraday.adapter Faraday.default_adapter
       end
+
+      # Log outgoing request
+      puts "Sending body: #{request_payload.to_json}"
+
       response = conn.post do |req|
         req.body = request_payload.to_json
       end
-      status 200
-      response.body
+
+      puts "\n=== Response ==="
+      puts "Status: #{response.status}"
+      puts "Body: #{response.body}"
+
+      [response.status, response.body]
     end
 
-    post '/hookpdo/:token' do
-      request_payload = JSON.parse(request.body.read)
-      forwarded_headers = request.env.select { |k, v| k.start_with?('HTTP_') }
-                                 .transform_keys { |k| k.sub(/^HTTP_/, '').split('_').collect(&:capitalize).join('-') }
-      conn = Faraday.new(url: "https://#{PDO_DOMAIN}/hook/#{params[:token]}") do |faraday|
-        faraday.headers.merge!(forwarded_headers)  # Merge the extracted headers
-        faraday.adapter Faraday.default_adapter
-      end
-      response = conn.post do |req|
-        req.body = request_payload.to_json
-      end
+    # Main webhook route
+    post '/hook/:token' do
+      status, body = forward_webhook(params[:token], API_DOMAIN)
       status 200
-      response.body
+      body
+    rescue => e
+      puts "\n=== Error ==="
+      puts "#{e.class}: #{e.message}"
+      puts e.backtrace
+      status 500
+      { error: e.message }.to_json
+    end
+
+    # PDO webhook route
+    post '/pdo/hook/:token' do
+      status, body = forward_webhook(params[:token], PDO_DOMAIN)
+      status 200
+      body
+    rescue => e
+      puts "\n=== Error ==="
+      puts "#{e.class}: #{e.message}"
+      puts e.backtrace
+      status 500
+      { error: e.message }.to_json
     end
 
     post '/api/create_dispute' do
