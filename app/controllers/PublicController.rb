@@ -38,42 +38,49 @@ module TSX
       puts "Raw body: #{raw_body}"
       request.body.rewind
 
-      request_payload = JSON.parse(request.body.read)
+      request_payload = JSON.parse(raw_body)
       puts "Parsed payload: #{request_payload.inspect}"
       request.body.rewind
 
       # Log headers being forwarded
       puts "\n=== Headers ==="
-      header_prefixes = include_content_headers ? ['HTTP_', 'CONTENT_'] : ['HTTP_']
-      forwarded_headers = request.env.select { |k, v| header_prefixes.any? { |prefix| k.start_with?(prefix) } }
-                                 .transform_keys { |k| k.sub(/^(?:HTTP_|CONTENT_)/, '').split('_').collect(&:capitalize).join('-') }
+      forwarded_headers = request.env
+                                 .select { |k, v| k.start_with?('HTTP_') }
+                                 .transform_keys { |k| k.sub(/^HTTP_/, '').split('_').collect(&:capitalize).join('-') }
+
       forwarded_headers['Host'] = URI("https://#{target_domain}").host
+      forwarded_headers['Content-Type'] = 'application/json'
       puts "Forwarding headers: #{forwarded_headers.inspect}"
 
-      # Log where we're sending
-      target_url = "https://#{target_domain}/hook/#{token}"
+      # Log target details
+      target_url = "https://#{target_domain}/hook/#{URI.encode_www_form_component(token)}"
       puts "\n=== Forwarding ==="
       puts "Target URL: #{target_url}"
+      puts "Sending body: #{raw_body}"
 
-      conn = Faraday.new(url: target_url) do |faraday|
-        faraday.headers.merge!(forwarded_headers)
-        faraday.adapter Faraday.default_adapter
+      # Make request
+      conn = Faraday.new(url: target_url) do |f|
+        f.headers.merge!(forwarded_headers)
+        f.adapter Faraday.default_adapter
       end
-
-      # Log outgoing request
-      puts "Sending body: #{request_payload.to_json}"
 
       response = conn.post do |req|
-        req.body = request_payload.to_json
+        req.body = raw_body
       end
 
+      # Log response
       puts "\n=== Response ==="
       puts "Status: #{response.status}"
       puts "Body: #{response.body}"
 
       [response.status, response.body]
+    rescue => e
+      puts "\n=== Error ==="
+      puts "#{e.class}: #{e.message}"
+      puts e.backtrace
+      raise e
     end
-
+    
     # Main webhook route
     post '/hook/:token' do
       status, body = forward_webhook(params[:token], API_DOMAIN)
