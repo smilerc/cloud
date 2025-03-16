@@ -80,7 +80,7 @@ module TSX
       puts e.backtrace
       raise e
     end
-    
+
     # Main webhook route
     post '/hook/:token' do
       status, body = forward_webhook(params[:token], API_DOMAIN)
@@ -145,7 +145,7 @@ module TSX
       end
     end
 
-    post ['/api/save_push', '/api/exception'] do
+    post ['/api/save_push', '/api/exception', '/api/check_trades'] do
       puts params.inspect
       if params.count == 0
         status 503
