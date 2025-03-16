@@ -145,7 +145,7 @@ module TSX
       end
     end
 
-    post ['/api/save_push', '/api/exception', '/api/check_trades'] do
+    post ['/api/save_push', '/api/exception'] do
       puts params.inspect
       if params.count == 0
         status 503
@@ -163,6 +163,30 @@ module TSX
       return response.body
     end
 
+    post ['/api/check_trades'] do
+      begin
+        request.body.rewind
+        request_payload = JSON.parse(request.body.read)
+      rescue JSON::ParserError
+        halt 400, { status: "error", message: "JSON format required" }.to_json
+      end
+      
+      path = request.path_info.sub('/api/', '')
+      url = "https://#{API_DOMAIN}/api/#{path}"
+      
+      conn = Faraday.new(url: url) do |c|
+        c.request :json
+        c.adapter Faraday.default_adapter
+      end
+      
+      response = conn.post do |req|
+        req.headers['Content-Type'] = 'application/json'
+        req.body = request_payload
+      end
+      
+      return response.body
+    end
+                    
     # Separate route for callback with JSON handling
     post '/api/callback/*' do
       puts params.inspect
